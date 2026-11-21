@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.themes.lumen.name"
+msgstr "Lumen Theme"
+
+msgid "plugins.themes.lumen.description"
+msgstr ""
+"An editorial, card-based journal theme with a hero banner, current-issue "
+"showcase, announcements, indexing logos and a rich footer. Built on the "
+"Default theme, so all inner pages keep working."
+
+# ---- Theme options ---------------------------------------------------------
+
+msgid "plugins.themes.lumen.option.primaryColor.label"
+msgstr "Primary colour"
+
+msgid "plugins.themes.lumen.option.primaryColor.description"
+msgstr "Used for the top bar, hero banner, footer, headings and links."
+
+msgid "plugins.themes.lumen.option.accentColor.label"
+msgstr "Accent colour"
+
+msgid "plugins.themes.lumen.option.accentColor.description"
+msgstr "Used for buttons, highlights and hover states."
+
+msgid "plugins.themes.lumen.option.useGoogleFonts.label"
+msgstr "Typography"
+
+msgid "plugins.themes.lumen.option.useGoogleFonts.description"
+msgstr "Inter for text and Source Serif 4 for headings, loaded from Google Fonts."
+
+msgid "plugins.themes.lumen.option.useGoogleFonts.option"
+msgstr "Load fonts from Google Fonts (untick to use the visitor's system fonts)"
+
+msgid "plugins.themes.lumen.option.topbarTagline.label"
+msgstr "Top bar tagline"
+
+msgid "plugins.themes.lumen.option.topbarTagline.description"
+msgstr "A short line shown at the left of the top bar."
+
+msgid "plugins.themes.lumen.option.heroEyebrow.label"
+msgstr "Hero: small heading"
+
+msgid "plugins.themes.lumen.option.heroEyebrow.description"
+msgstr "The small uppercase line above the journal name on the homepage."
+
+msgid "plugins.themes.lumen.option.heroSubtitle.label"
+msgstr "Hero: subtitle"
+
+msgid "plugins.themes.lumen.option.heroSubtitle.description"
+msgstr "The larger line under the journal name."
+
+msgid "plugins.themes.lumen.option.heroText.label"
+msgstr "Hero: description"
+
+msgid "plugins.themes.lumen.option.heroText.description"
+msgstr "A sentence or two under the subtitle. The homepage image set under Website > Appearance > Setup is shown beside it."
+
+msgid "plugins.themes.lumen.option.highlights.label"
+msgstr "Highlights strip"
+
+msgid "plugins.themes.lumen.option.highlights.description"
+msgstr "Up to four lines in the form: Title | Short description. Leave empty for the defaults."
+
+msgid "plugins.themes.lumen.option.subjectScope.label"
+msgstr "Subject scope"
+
+msgid "plugins.themes.lumen.option.subjectScope.description"
+msgstr "One subject per line. Shown beside the journal description on the homepage. Leave empty to hide."
+
+msgid "plugins.themes.lumen.option.indexing.label"
+msgstr "Indexing and abstracting"
+
+msgid "plugins.themes.lumen.option.indexing.description"
+msgstr "One service per line in the form: Name | Link | Logo image URL (the link and logo are optional). Leave empty to hide the section."
+
+msgid "plugins.themes.lumen.option.newsletterAction.label"
+msgstr "Newsletter form address"
+
+msgid "plugins.themes.lumen.option.newsletterAction.description"
+msgstr "The form-post URL from your mailing-list service (Mailchimp, Brevo, MailerLite...). The email field is sent as EMAIL. Leave empty to hide the newsletter box."
+
+msgid "plugins.themes.lumen.option.footerTagline.label"
+msgstr "Footer tagline"
+
+msgid "plugins.themes.lumen.option.footerTagline.description"
+msgstr "A short line under the journal name in the footer."
+
+msgid "plugins.themes.lumen.option.social.label"
+msgstr "Footer connect links"
+
+msgid "plugins.themes.lumen.option.social.description"
+msgstr "One link per line in the form: Label | URL, for example: LinkedIn | https://linkedin.com/company/yourjournal. Use mailto: for an email link."
+
+# ---- Default content -------------------------------------------------------
+
+msgid "plugins.themes.lumen.default.topbarTagline"
+msgstr "Scholarly publishing with clarity, integrity, and global reach."
+
+msgid "plugins.themes.lumen.default.heroEyebrow"
+msgstr "A Global Perspective"
+
+msgid "plugins.themes.lumen.default.heroSubtitle"
+msgstr "Advancing knowledge across cultures and disciplines"
+
+msgid "plugins.themes.lumen.default.heroText"
+msgstr "A peer-reviewed, open-access journal publishing high-quality research for a global scholarly community."
+
+msgid "plugins.themes.lumen.default.highlight1.title"
+msgstr "Peer Reviewed"
+
+msgid "plugins.themes.lumen.default.highlight1.text"
+msgstr "Rigorous and independent editorial process"
+
+msgid "plugins.themes.lumen.default.highlight2.title"
+msgstr "Open Access"
+
+msgid "plugins.themes.lumen.default.highlight2.text"
+msgstr "Knowledge for a more equitable world"
+
+msgid "plugins.themes.lumen.default.highlight3.title"
+msgstr "Regular Publication"
+
+msgid "plugins.themes.lumen.default.highlight3.text"
+msgstr "Consistent scholarly output"
+
+msgid "plugins.themes.lumen.default.highlight4.title"
+msgstr "Persistent Identifiers"
+
+msgid "plugins.themes.lumen.default.highlight4.text"
+msgstr "Persistent and citable research"
+
+# ---- Interface text --------------------------------------------------------
+
+msgid "plugins.themes.lumen.openMenu"
+msgstr "Menu"
+
+msgid "plugins.themes.lumen.submenuLabel"
+msgstr "Show submenu"
+
+msgid "plugins.themes.lumen.issnOnline"
+msgstr "Online"
+
+msgid "plugins.themes.lumen.issnPrint"
+msgstr "Print"
+
+msgid "plugins.themes.lumen.submitManuscript"
+msgstr "Submit Manuscript"
+
+msgid "plugins.themes.lumen.exploreArticles"
+msgstr "Explore Articles"
+
+msgid "plugins.themes.lumen.currentIssueArrow"
+msgstr "Current Issue"
+
+msgid "plugins.themes.lumen.highlightsLabel"
+msgstr "Journal highlights"
+
+msgid "plugins.themes.lumen.currentScholarship"
+msgstr "Current scholarship"
+
+msgid "plugins.themes.lumen.latestResearch"
+msgstr "Latest Research"
+
+msgid "plugins.themes.lumen.viewCurrentIssue"
+msgstr "View Current Issue"
+
+msgid "plugins.themes.lumen.viewIssue"
+msgstr "View Issue"
+
+msgid "plugins.themes.lumen.allIssues"
+msgstr "All Issues"
+
+msgid "plugins.themes.lumen.viewAllIssues"
+msgstr "View All Issues"
+
+msgid "plugins.themes.lumen.articles"
+msgstr "Articles"
+
+msgid "plugins.themes.lumen.viewArticle"
+msgstr "View Article"
+
+msgid "plugins.themes.lumen.learnMore"
+msgstr "Learn More"
+
+msgid "plugins.themes.lumen.subjectScope"
+msgstr "Subject Scope"
+
+msgid "plugins.themes.lumen.viewAll"
+msgstr "View All"
+
+msgid "plugins.themes.lumen.news"
+msgstr "News"
+
+msgid "plugins.themes.lumen.indexed"
+msgstr "Indexed & Abstracted"
+
+msgid "plugins.themes.lumen.stayInformed"
+msgstr "Stay Informed"
+
+msgid "plugins.themes.lumen.stayInformedText"
+msgstr "Get the latest news, calls for papers, and new publications."
+
+msgid "plugins.themes.lumen.emailAddress"
+msgstr "Email address"
+
+msgid "plugins.themes.lumen.subscribe"
+msgstr "Subscribe"
+
+msgid "plugins.themes.lumen.submitCardTitle"
+msgstr "Submit a Manuscript"
+
+msgid "plugins.themes.lumen.submitCardText"
+msgstr "Share your research with a global audience."
+
+msgid "plugins.themes.lumen.quickLinks"
+msgstr "Quick Links"
+
+msgid "plugins.themes.lumen.policies"
+msgstr "Policies"
+
+msgid "plugins.themes.lumen.connect"
+msgstr "Connect"
+
+msgid "plugins.themes.lumen.privacy"
+msgstr "Privacy Statement"
+
+msgid "plugins.themes.lumen.footerCopyright"
+msgstr "&copy; {$year} {$name}. All rights reserved."
+
+msgid "plugins.themes.lumen.poweredBy"
+msgstr "Powered by Open Journal Systems"
+
+msgid "plugins.themes.lumen.editorialTeam"
+msgstr "Editorial Team"
