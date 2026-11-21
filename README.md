@@ -1,4 +1,4 @@
-# Lumen: an OJS 3.4 theme
+# Lumen: an OJS 3.4/3.5 theme
 
 An editorial, card-based journal theme modelled on the layout of the Meridian demo
 (top bar, brand row with ISSNs and a Submit button, hero banner, floating highlights
