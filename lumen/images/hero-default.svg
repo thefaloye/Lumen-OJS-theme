@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-hidden="true">
+	<defs>
+		<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#ffffff" stop-opacity=".16"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity=".02"/>
+		</linearGradient>
+		<clipPath id="c"><circle cx="300" cy="240" r="170"/></clipPath>
+	</defs>
+	<!-- globe -->
+	<circle cx="300" cy="240" r="170" fill="url(#g)" stroke="#ffffff" stroke-opacity=".35" stroke-width="1.5"/>
+	<g clip-path="url(#c)" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.2">
+		<ellipse cx="300" cy="240" rx="60" ry="170"/>
+		<ellipse cx="300" cy="240" rx="120" ry="170"/>
+		<ellipse cx="300" cy="240" rx="170" ry="52"/>
+		<ellipse cx="300" cy="240" rx="170" ry="110"/>
+		<line x1="130" y1="240" x2="470" y2="240"/>
+		<line x1="300" y1="70" x2="300" y2="410"/>
+	</g>
+	<!-- the meridian -->
+	<ellipse cx="300" cy="240" rx="92" ry="170" fill="none" stroke="#c8963e" stroke-width="3" transform="rotate(24 300 240)"/>
+	<!-- orbit and nodes -->
+	<ellipse cx="300" cy="240" rx="250" ry="92" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="1.2" stroke-dasharray="3 7" transform="rotate(-18 300 240)"/>
+	<g fill="#c8963e">
+		<circle cx="494" cy="196" r="7"/>
+		<circle cx="118" cy="310" r="5"/>
+		<circle cx="372" cy="98" r="4"/>
+	</g>
+	<g fill="#ffffff" fill-opacity=".85">
+		<circle cx="224" cy="372" r="4"/>
+		<circle cx="452" cy="330" r="3"/>
+		<circle cx="160" cy="150" r="3"/>
+	</g>
+	<!-- open book -->
+	<g transform="translate(300 392)">
+		<path d="M0 0 C-34 -14 -76 -14 -104 -2 L-104 40 C-76 28 -34 28 0 42 Z" fill="#ffffff" fill-opacity=".9"/>
+		<path d="M0 0 C34 -14 76 -14 104 -2 L104 40 C76 28 34 28 0 42 Z" fill="#ffffff" fill-opacity=".75"/>
+		<path d="M0 0 L0 42" stroke="#c8963e" stroke-width="2.5"/>
+	</g>
+</svg>
