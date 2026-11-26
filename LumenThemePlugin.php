@@ -224,6 +224,9 @@ class LumenThemePlugin extends ThemePlugin
             'social' => $social,
             'newsletterAction' => $this->safeUrl((string) $this->getOption('newsletterAction')),
             'news' => $this->homepageAnnouncements($templateMgr),
+            // OJS 3.5's date_format modifier takes PHP date() formats and 3.4's takes strftime ones,
+            // so the footer year is worked out here instead of in the template
+            'year' => date('Y'),
             'heroFallbackImage' => $request->getBaseUrl() . '/' . $this->getPluginPath() . '/images/hero-default.svg',
             // OJS 3.5 renamed the editorial team page to the editorial masthead
             'editorialOp' => $ojs35 ? 'editorialMasthead' : 'editorialTeam',
@@ -264,12 +267,13 @@ class LumenThemePlugin extends ThemePlugin
                 $text = $announcement->getLocalizedDescriptionShort();
                 $posted = $announcement->getDatePosted();
             }
-            $time = $posted instanceof \DateTimeInterface ? $posted->getTimestamp() : ($posted ? strtotime((string) $posted) : 0);
+            $timestamp = $posted instanceof \DateTimeInterface ? $posted->getTimestamp() : ($posted ? (int) strtotime((string) $posted) : 0);
             $news[] = [
                 'id' => $id,
                 'title' => (string) $title,
                 'text' => (string) $text,
-                'time' => $time ?: 0,
+                // a date string, which both OJS versions' date_format modifier accepts
+                'time' => $timestamp ? date('Y-m-d H:i:s', $timestamp) : '',
             ];
         }
         return $news;

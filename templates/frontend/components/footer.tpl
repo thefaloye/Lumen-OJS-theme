@@ -94,7 +94,7 @@
 
 			<div class="lm_footer_bottom">
 				<div class="lm_container lm_footer_bottom_inner">
-					<p>{translate key="plugins.themes.lumen.footerCopyright" year=$smarty.now|date_format:"%Y" name=$displayPageHeaderTitle|escape}</p>
+					<p>{translate key="plugins.themes.lumen.footerCopyright" year=$lumen.year name=$displayPageHeaderTitle|escape}</p>
 					<a class="lm_powered" href="{url page="about" op="aboutThisPublishingSystem"}">{translate key="plugins.themes.lumen.poweredBy"}</a>
 				</div>
 			</div>

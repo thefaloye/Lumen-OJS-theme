@@ -1,13 +1,13 @@
-# Lumen: an OJS 3.4/3.5 theme
+# Lumen: an OJS 3.4 theme
 
 An editorial, card-based journal theme modelled on the layout of the Meridian demo
 (top bar, brand row with ISSNs and a Submit button, hero banner, floating highlights
 strip, current-issue showcase with article cards, About + Subject Scope, announcements,
 indexing logos, newsletter / submit call-to-action, four-column footer).
 
-It is a **child of the Default theme**: the header, footer and journal homepage are
-replaced, and every other page (article, issue, archive, search, login, ...) still
-works, re-coloured and re-typeset to match.
+It is a **child of the Default theme**: the header, footer, journal homepage and issue
+archive are replaced; the article and issue pages are re-laid-out in CSS; everything else
+(search, login, ...) still works, re-coloured and re-typeset to match.
 
 Works on OJS **3.4.x and 3.5.x** (checked against the 3.4.0 and 3.5.0 source) with the Default theme present (it always ships with OJS).
 On 3.5 the journal *Highlights* carousel, if you have set one up, is shown above the hero, and the footer link points to the Editorial Masthead.

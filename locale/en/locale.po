@@ -242,3 +242,45 @@ msgstr "Powered by Open Journal Systems"
 
 msgid "plugins.themes.lumen.editorialTeam"
 msgstr "Editorial Team"
+
+msgid "plugins.themes.lumen.archive.eyebrow"
+msgstr "Published record"
+
+msgid "plugins.themes.lumen.archive.lead"
+msgstr "Browse published issues by year and explore the journal's complete scholarly record."
+
+msgid "plugins.themes.lumen.archive.publishedIssues"
+msgstr "Published issues"
+
+msgid "plugins.themes.lumen.archive.otherIssues"
+msgstr "Other issues"
+
+msgid "plugins.themes.lumen.archive.browseByYear"
+msgstr "Browse by year:"
+
+msgid "plugins.themes.lumen.archive.all"
+msgstr "All"
+
+msgid "plugins.themes.lumen.archive.search"
+msgstr "Search issues"
+
+msgid "plugins.themes.lumen.archive.noMatches"
+msgstr "No issues match your search."
+
+msgid "plugins.themes.lumen.archive.latest"
+msgstr "Latest Issue"
+
+msgid "plugins.themes.lumen.archive.archiveIssue"
+msgstr "Archive Issue"
+
+msgid "plugins.themes.lumen.archive.published"
+msgstr "Published:"
+
+msgid "plugins.themes.lumen.archive.defaultDescription"
+msgstr "Explore peer-reviewed research and scholarship published in this issue."
+
+msgid "plugins.themes.lumen.archive.viewIssue"
+msgstr "View Issue"
+
+msgid "plugins.themes.lumen.archive.toc"
+msgstr "Table of Contents"
