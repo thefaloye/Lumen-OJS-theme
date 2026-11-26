@@ -7,7 +7,7 @@
  *
  * @class LumenThemePlugin
  *
- * @brief Lumen: an editorial, card-based journal theme for OJS 3.4.
+ * @brief Lumen: an editorial, card-based journal theme for OJS 3.5.
  *        It is a child of the Default theme, so every inner page (article,
  *        issue, archive, login, search, ...) keeps working while the header,
  *        footer and journal homepage are replaced.
